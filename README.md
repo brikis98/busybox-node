@@ -1,5 +1,6 @@
 # busybox-node
 
-A minimal Docker base images (~26mb) equipped with `curl-7.40.0` including SSL/TLS support and `NodeJS`. 
-The container is based on the [odise/busybox-curl:2015.02](https://github.com/odise/busybox-curl/). 
+A minimal Docker base image (~26mb) equipped with `NodeJS`. It's based on 
+[progrium/busybox](https://github.com/progrium/busybox), so you have access to
+the [OPKG package manager](http://wiki.openwrt.org/doc/techref/opkg). 
 
